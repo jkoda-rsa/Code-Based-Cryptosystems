@@ -7,7 +7,7 @@ This project presents a methodology for using machine learning to attack code-ba
 The machine learning approach involves training a model as a binary multi-label classification problem to predict the error vector from a syndrome vector. The architecture includes an input layer, multiple hidden layers (using ReLU and sigmoid activation functions), and an output layer. The research showed that even a 1% success rate in decoding error vectors could potentially compromise the security of cryptosystems.
 
 <p align="center">
-    <img align="center" alt="Descriptors" src="https://github.com/jkoda-rsa/Code-Based-Cryptosystems/blob/main/img/model_arch.pdf" width=80% height=80%>
+    <img align="center" alt="Descriptors" src="https://github.com/jkoda-rsa/Code-Based-Cryptosystems/blob/main/img/result.png" width=80% height=80%>
     <p align="center">$\texttt{predskite}$: Prediction of novel charge transport layers for efficient perovskite solar cells</p>
 </p>
 
