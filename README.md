@@ -1,4 +1,5 @@
 # Machine Learning-Based Attacks on Code-Based Cryptosystems
+*This was the master project with Daniel Baur, supervised by Professor Anna-Lena Horlemann.*
 
 ## Problem
 This project presents a methodology for using machine learning to attack code-based cryptosystems. It focuses on the syndrome decoding problem, utilizing a linear code `C` of length `n` and dimension `k` over `F_q`. The parity check matrix `H` is of size `(n-k) x n` over `F_q`. For a received message `m = c + e` where `c ∈ C` and `e ∈ F_q^n` with Hamming weight `wt(e) ≤ (d-1)/2`, the goal is to find `e` given `H` and the syndrome `s`. This problem is critical to the security of the McEliece cryptosystem. 
